@@ -31,7 +31,7 @@ npm start
 
 7. ???
 
-8. Profit!
+8. Profit
 
 # Understanding the Basic API
 - This API offers four main routes: products, orders, image, and payments.
