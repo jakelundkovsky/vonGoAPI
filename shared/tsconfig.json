@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "alwaysStrict": false,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*", "__tests__/**/*"]
+}

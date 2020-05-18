@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Product: Price (Wei)
+  form(action="/products", method="post")
+    each val, key in data["resource"]
+      div.input
+        input(type="checkbox", name="products", value='#{key}')
+        span.label #{val["title"]}: #{val["price"]}
+
+    div.actions
+      input(type="submit")
