@@ -86,7 +86,7 @@ npm start
 - Access functions related to querying products(s) in inventory
 
 
-#Usage
+# Usage
 - There are two ways someone developing their own application could use this API
 
 1. You can download and run the server and get/post to the routes found in "Understanding the Basic API" section
